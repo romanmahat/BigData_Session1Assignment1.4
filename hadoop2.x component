@@ -1,0 +1,17 @@
+The following are the hadoop2.x  core component which include
+
+       a)HDFS(Hadoop distrubuted file system)
+       b)Yarn(yet another resourse nigotiator)
+
+      Apache Hadoop 2. consists of the following daemons:
+
+        a)Name Node
+        b)Secondary Name Node
+        c)Data Node
+        d)Resource Manager
+        e)Node Manager
+All these Daemons are nothing but a piece of code. Java code is running at the background.
+In order to run Java Code, we need JVM, So each daemon service need some JVM service to run.
+
+Among above daemons namenode,datenode amd secondary namenode are the HDFS component.which is a storage system
+and resource manager and node manager are the yarn component.which is processing system
